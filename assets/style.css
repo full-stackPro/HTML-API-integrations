@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('Fonts/GillSans-01.ttf');
+}
+
+@font-face {
+    font-family: 'Gill Sans SemiBold';
+    src: url('Fonts/GillSans-SemiBold-05.ttf');
+}
+
+@font-face {
+    font-family: 'Gill Sans Light';
+    src: url('Fonts/GillSans-Light-08.ttf');
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.container.template_1080_1920 {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    height: 1920px;
+}
+
+.template_1080_1920 .video_bg {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.template_1080_1920 .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1080px;
+    animation: fadein 1s linear;
+    -webkit-animation: fadein 1s linear;
+    -o-animation: fadein 1s linear;
+    -moz-animation: fadein 1s linear;
+}
+@-webkit-keyframes fadein{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.template_1080_1920 .healine_text {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.template_1080_1920 .healine_top_space {
+    height: 150px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_1080_1920 .healine_bottom_space {
+    height: 95px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_1080_1920 .space_50 {
+    height: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_1080_1920 .healine_text h2 {
+    font-size: 124px;
+    line-height: 114px;
+    color: #121212;
+    text-align: center;
+    font-family: 'Gill Sans SemiBold';
+    
+}
+
+.template_1080_1920 .product {
+    height: 1080px;
+    width: 1080px;
+   
+    text-align: center;
+    position:relative;
+}
+.template_1080_1920 .product img {
+       position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+     margin: 0 auto;
+    max-height:1080px;
+}
+
+.template_1080_1920 .location_call_out h4 {
+    font-size: 62px;
+    line-height: 66px;
+    color: #121212;
+    text-align: center;
+    font-family: 'Gill Sans SemiBold';
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.template_1080_1920 .terms_and_conditions h6 {
+    font-size: 16px;
+    line-height: 18px;
+    color: #595957;
+    text-align: center;
+    font-family: 'Gill Sans Light';
+}
+
+/*** 340 X 612 Template Style ***/
+
+.container.template_340_612 {
+    position: relative;
+    width: 340px;
+    margin: 0 auto;
+    height: 612px;
+}
+
+.template_340_612 .video_bg {
+    min-width: 340px;
+    min-height: 612px;
+    width: 340px;
+    height: 612px;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.template_340_612 .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    animation: fadein 1s linear;
+    -webkit-animation: fadein 1s linear;
+    -o-animation: fadein 1s linear;
+    -moz-animation: fadein 1s linear;
+}
+
+.template_340_612 .healine_text {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.template_340_612 .healine_top_space {
+    height: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_340_612 .healine_bottom_space {
+    height: 45px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_340_612 .space_50 {
+    height: 12px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_340_612 .healine_text h2 {
+    font-size: 36px;
+    line-height: 33px;
+    color: #121212;
+    text-align: center;
+
+    font-family: 'Gill Sans SemiBold';
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.template_340_612 .product {
+    height: 340px;
+    width: 340px;
+    text-align: center;
+    
+    position:relative;
+}
+.template_340_612 .product img {
+       position: absolute;
+    bottom: 20px;
+    left: 0;
+    right:0;
+     margin: 0 auto;
+    max-height:340px;
+    max-width: 340px;
+}
+
+.template_340_612 .location_call_out h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #121212;
+    text-align: center;
+    font-family: 'Gill Sans SemiBold';
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.template_340_612 .terms_and_conditions h6 {
+    font-size: 9px;
+    line-height: 12px;
+    color: #595957;
+    text-align: left;
+    font-family: 'Gill Sans Light';
+}
+
+/*** 384 X 672 Template Style ***/
+
+.container.template_384_672 {
+    position: relative;
+    width: 384px;
+    margin: 0 auto;
+    height: 672px;
+}
+
+.template_384_672 .video_bg {
+    min-width: 384px;
+    min-height: 672px;
+    width: 384px;
+    height: 672px;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.template_384_672 .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 384px;
+    animation: fadein 1s linear;
+    -webkit-animation: fadein 1s linear;
+    -o-animation: fadein 1s linear;
+    -moz-animation: fadein 1s linear;
+}
+
+.template_384_672 .healine_text {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.template_384_672 .healine_top_space {
+    height: 60px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_384_672 .healine_bottom_space {
+    height: 45px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_384_672 .space_50 {
+    height: 12px;
+    display: block;
+    overflow: hidden;
+}
+
+.template_384_672 .healine_text h2 {
+    font-size: 40px;
+    line-height: 36px;
+    color: #121212;
+    
+    text-align: center;
+    font-family: 'Gill Sans SemiBold';
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.template_384_672 .product {
+    height: 384px;
+    width: 384px;
+    
+    text-align: center;
+    position:relative;
+}
+
+.template_384_672 .product img {
+       position: absolute;
+    bottom: 20px;
+    left: 0;
+    right:0;
+     margin: 0 auto;
+    max-height:384px;
+    max-width: 384px;
+}
+
+.template_384_672 .location_call_out h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #121212;
+    text-align: center;
+    font-family: 'Gill Sans SemiBold';
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.template_384_672 .terms_and_conditions h6 {
+    font-size: 9px;
+    line-height: 12px;
+    color: #595957;
+    text-align: left;
+    font-family: 'Gill Sans Light';
+}
+
+
+/*** 816 X 340 Template Style ***/
+
+.container.template_816_340 {
+    position: relative;
+    width: 816px;
+    margin: 0 auto;
+    height: 340px;
+}
+
+.template_816_340 .video_bg {
+    min-width: 816px;
+    min-height: 340px;
+    width: 816px;
+    height: 340px;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.template_816_340 .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 816px;
+    animation: fadein 1s linear;
+    -webkit-animation: fadein 1s linear;
+    -o-animation: fadein 1s linear;
+    -moz-animation: fadein 1s linear;
+}
+
+.healine_text_box {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    float: left;
+    height: 340px;
+    position: relative;
+}
+
+.healine_text_box h2 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #121212;
+    margin-bottom: 30px;
+    
+    font-family: 'Gill Sans SemiBold';
+}
+
+.healine_text_box h4 {
+    font-size: 25px;
+    line-height: 28px;
+    width: 55%;
+    color: #121212;
+    font-family: 'Gill Sans SemiBold';
+}
+
+.healine_text_box h6 {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 8px;
+    line-height: 12px;
+    font-family: 'Gill Sans Light';
+}
+
+.product_box {
+    width: 340px;
+    height: 340px;
+    float: left;
+    
+    position:relative;
+}
+
+.product_box img {
+    max-width: 100%;
+}
+
+.template_816_340 .product_box img {
+       position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+     margin: auto;
+    max-height:340px;
+    max-width: 340px;
+}
